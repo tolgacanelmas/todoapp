@@ -1,3 +1,10 @@
+This is how when you start app is shown
+
+![ToDo](public/img/first.png)
+
+This is how when you add todo
+
+![ToDo](public/img/final.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
