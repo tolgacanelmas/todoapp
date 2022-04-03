@@ -1,0 +1,90 @@
+body {
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+.app {
+  padding: 50px 20px;
+}
+
+@media (min-width: 575px) {
+  .app {
+    padding: 50px 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .app {
+    padding: 50px 150px;
+  }
+}
+
+.app h1 {
+  margin-bottom: 50px;
+  color: #878787;
+}
+
+.app .search {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.app .search .input-control {
+  width: 100%;
+  margin-right: 20px;
+  margin-left: 0px;
+}
+
+@media (min-width: 575px) {
+  .app .search .input-control {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+}
+
+.app .todos .todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e1e1e1;
+  border-bottom: none;
+  padding: 12px;
+}
+
+.app .todos .todo:last-child {
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.app .todos .todo .todo-content {
+  display: flex;
+  width: 100%;
+}
+
+.app .todos .todo .todo-content.completed p {
+  position: relative;
+}
+
+.app .todos .todo .todo-content.completed p:before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  height: 1px;
+  background-color: #000;
+}
+
+.app .todos .todo .todo-content p {
+  margin-left: 20px;
+}
+
+.app .todos .todo .delete {
+  color: #df1717;
+  cursor: pointer;
+}
